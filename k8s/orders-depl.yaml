@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: wnstn385/orders:2
+          image: wnstn385/orders:3
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
