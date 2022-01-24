@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: wnstn385/expiration:latest
+          image: wnstn385/expiration:3
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
