@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: wnstn385/payments:latest
+          image: wnstn385/payments:2
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
